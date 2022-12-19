@@ -1,0 +1,135 @@
+html, body {
+    background: #444444;
+    
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: absolute;
+    background-color: #292929 !important;
+    padding: 2vh;
+}
+
+.navbar-brand {
+    font-family: 'Inria Serif', serif;
+    font-size: 50px;
+    letter-spacing: 0.5vw;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    color: rgb(234, 234, 234);
+}
+
+.logo {
+    font-family: 'Inria Serif', serif;
+    font-size: 10px;
+    letter-spacing: 0.5vw;
+    margin-left: 6vw;
+    color: rgb(234, 234, 234);
+}
+
+
+.tabs{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    list-style-type: none;
+    top: 4vh;
+    margin-right: 5vw;
+    gap: 2vw;
+}
+
+.tab {
+    font-size: 20px;
+    font-family: 'Inria Serif', serif;
+    color: rgb(234, 234, 234);
+    cursor :pointer;
+    /* margin-right: 5vw; */
+}
+
+.home {
+    overflow: hidden;
+}
+
+.position {
+    background-size:100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    margin-top: 10vh;
+    opacity: 0.92;
+    
+}
+
+.homeText {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.2vw;
+    bottom: 35vh;
+    margin-left: 7vw;
+    gap: 15px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    width: 360px;
+}
+
+.itemTitle {
+    font-family: 'Inria Serif', serif;
+    color: white;
+    width: 277px;
+    padding-top: 10px;
+}
+
+.itemDesc {
+    font-family: 'Inria Serif', serif;
+    font-size: 15px;
+    color: white;
+    width: 277px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px
+}
+
+.row {
+    position: relative;
+    top: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    column-gap: 2vw;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+
+.col {
+    background-color: #292929;
+    padding: 0;
+    border-radius: 20px;
+    width: 275px;
+    height: 316px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+}
+
+.m-img {
+    height: 179px;
+    width: 277px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
